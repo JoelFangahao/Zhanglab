@@ -17,26 +17,35 @@
             padding: 60px 0; 
         }
         .img-leader { 
-            max-width: 220px; 
+            max-width: 180px; 
             border-radius: 50%; 
             border: 10px solid #e3f2fd; 
         }
         .img-topic {
             max-width: 1080px;
-            width: 200%;
+            width: 100%;
             height: auto;
             display: block;
-            margin-bottom: 1rem;
+            margin: 0 auto 1.5rem;
+        }
+        .intro-wrapper {
+            max-width: 760px;
+            margin: 0 auto;
+        }
+        .bio-text {
+            font-size: 2rem;
+            font-weight: 200;
+            line-height: 2;
         }
         .img-group { 
-            max-width: 95%; 
+            max-width: 100%; 
             border-radius: 12px; 
             box-shadow: 0 6px 12px rgba(0,0,0,0.1); 
         }
         .team-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 35px 25px;
+            gap: 45px 35px;
             justify-items: center;
         }
         .team-member { 
@@ -44,7 +53,7 @@
             max-width: 240px; 
         }
         .team-member img {
-            width: 160px; height: 160px;
+            width: 360px; height: 160px;
             border-radius: 50%; object-fit: cover;
             border: 4px solid #e3f2fd;
             box-shadow: 0 6px 16px rgba(0,0,0,0.12);
@@ -109,54 +118,67 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Tools">
-                        <span class="nav-icon">📚</span> Tools
+                        <span class="nav-icon">🛠️</span> Tools
                     </a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+                   
 
-<section id="home" class="section bg-light" style="padding-top: 200px;">
+<img src="Top.png" alt="Zhang Research Group - Research" class="img-topic">
+<section class="section bg-light parallel-sections" style="padding-top: 200px;">
     <div class="container">
-        <h1 class="mb-4">Welcome to the Zhang Research Group</h1>
-        <img src="Top.png" alt="Zhang Research Group - Research" class="img-topic">
-        
-        <p class="lead">Department of Physics, City University of Hong Kong</p>
+         <h1 class="mb-4">Welcome to the Zhang Research Group</h1>
+        <div class="row gx-5 gy-5 align-items-start">
+            <div class="col-lg-6">
+                <section id="home">
+                    <div class="intro-wrapper">
+                        <p class="lead">Department of Physics, City University of Hong Kong</p>
 
-        <div class="row align-items-center mb-5">
-            <div class="col-md-4 text-center">
-                <img src="Zhang.jpg" alt="Prof. Zhedong Zhang" class="img-leader mb-3">
+                        <div class="row align-items-center mb-5">
+                            <div class="col-md-4 text-center">
+                                <img src="Zhang.jpg" alt="Prof. Zhedong Zhang" class="img-leader mb-3">
+                            </div>
+                            <div class="col-md-8">
+                                <h2>Prof. Zhedong Zhang 張哲東</h2>
+                                <p class="fw-bold">Associate Professor (tenured)</p>
+                                <p>
+                                    Prof. Zhedong Zhang received his B.Sc. from Shenzhen University in 2009 and Ph.D. degree in physics from the State University of New York at Stony Brook in 2016. During 2016-2017, he worked as postdoctoral researcher in the Department of Chemistry at University of California Irvine. From 2017 to 2020, he was a Robert A. Welch Postdoctoral Fellow in the Institute for Quantum Science and Engineering at Texas A&M University. He joined the Department of Physics at City University of Hong Kong in 2020 as an Assistant Professor, and was promoted to Associate Professor (tenured) in 2025. Prof. Zhang received the Excellent Young Scientists Award by the NSFC in 2024 (國家優秀青年科學基金).
+                                </p>
+                                <p class="mt-3">
+                                    <strong>Contact:</strong><br>
+                                    Email: <a href="mailto:zzhan26@cityu.edu.hk">zzhan26@cityu.edu.hk</a><br>
+                                    Phone: +852 34424967<br>
+                                    Office: YEUNG-G5125
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="col-md-8">
-                <h2>Prof. Zhedong Zhang 張哲東</h2>
-                <p class="fw-bold">Associate Professor (tenured)</p>
-                <p>
-                    Prof. Zhedong Zhang received his B.Sc. from Shenzhen University in 2009 and Ph.D. degree in physics from the State University of New York at Stony Brook in 2016. During 2016-2017, he worked as postdoctoral researcher in the Department of Chemistry at University of California Irvine. From 2017 to 2020, he was a Robert A. Welch Postdoctoral Fellow in the Institute for Quantum Science and Engineering at Texas A&M University. He joined the Department of Physics at City University of Hong Kong in 2020 as an Assistant Professor, and was promoted to Associate Professor (tenured) in 2025. Prof. Zhang received the Excellent Young Scientists Award by the NSFC in 2024 (國家優秀青年科學基金).
-                </p>
-                <p class="mt-3">
-                    <strong>Contact:</strong><br>
-                    Email: <a href="mailto:zzhan26@cityu.edu.hk">zzhan26@cityu.edu.hk</a><br>
-                    Phone: +852 34424967<br>
-                    Office: YEUNG-G5125
-                </p>
+
+            <div class="col-lg-6">
+                <section id="team" class="h-100">
+                    <h3 class="mt-5">Group Photo</h3>
+                        <img src="Group.jpg" alt="Zhang Research Group - Student Carnival 2026" class="img-group">
+                    <h2 class="text-center mb-5" style="color: #0d47a1;">Date:15.01.2026</h2>
+                </section>
             </div>
         </div>
-
-        <h3 class="mt-5">Group Photo</h3>
-        <img src="Group.jpg" alt="Zhang Research Group - Student Carnival 2026" class="img-group">
     </div>
 </section>
 
-<section id="team" class="section">
+ <section id="team" class="section">
     <div class="container">
-        <h2 class="text-center mb-5" style="color: #0d47a1;">Our Team</h2>
+        <h2 class="text-center mb-5" style="color: #0d47a1;">Our Group Members</h2>
 
         <div class="team-grid">
             <!-- Leader -->
             <div class="team-member">
                 <!--img src="images/prof-zhang.jpg" alt="Prof. Zhedong Zhang"-->
-                <h3>Zhedong Zhang</h3>
+                <h3>Zhedong Zhang 张哲东</h3>
                 <p>Associate Professor<br>Group Leader</p>
             </div>
 
@@ -196,7 +218,22 @@
                 <!--img src="images/yihe-xu.jpg" alt="Yihe Xu"-->
                 <h3>Yihe Xu 许一鹤</h3>
                 <p>Postdoctoral Fellow</p>
+            </div>         
+
+            <!-- Former PhD Students -->
+            <div class="team-member">
+                <!--img src="images/jiahao-fan.jpg" alt="Jiahao Fan"-->
+                <h3>Jianhua Ren 任建华</h3>
+                <p>Former PhD Student</p>
             </div>
+
+            <div class="team-member">
+                <!--img src="images/jiahao-fan.jpg" alt="Jiahao Fan"-->
+                <h3>Feihong Liu 刘飞鸿 </h3>
+                <p>Former PhD Student</p>
+            </div>
+            <div class="team-grid"></div>
+
         </div>
     </div>
 </section>
@@ -207,6 +244,12 @@
         <p class="lead">Accepting PhD Students</p>
         <p>Several positions are available for postdoctoral scholars and graduate students. If you are interested in joining our research group, please contact Prof. Zhang with your CV and research interests.</p>
         <p>Prof. Zhang is willing to speak to media.</p>
+        <p class="mt-3">
+                                    <strong>Contact:</strong><br>
+                                    Email: <a href="mailto:zzhan26@cityu.edu.hk">zzhan26@cityu.edu.hk</a><br>
+                                    Phone: +852 34424967<br>
+                                    Office: YEUNG-G5125
+                                </p>
     </div>
 </section>
 
